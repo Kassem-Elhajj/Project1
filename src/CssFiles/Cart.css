@@ -1,0 +1,83 @@
+.cartContainer{
+    display: flex;
+    border:solid #777;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.cartContainer img{
+    height: 150px;
+    max-width: 800px;
+}
+
+.cartText{
+    display: block;
+    /* margin: auto; */
+    margin: 10px
+}
+
+.cartContainer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cartText img{
+    height: 20px;
+    /* margin-left: 120px; */
+    /* margin-top: 6px; */
+}
+
+.cartContainer li{
+    list-style: none;
+}
+
+.Carts h1{
+    border: none;
+    max-width: 400px;
+    color: red;
+    margin-left: 150px;
+}
+
+.deleteCartButton{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.buy{
+    position: relative;
+    width: 200px;
+    padding: 15px 0 ;
+    text-align: center;
+    margin: 3px;
+    left: 180px;
+    font-weight: bold;
+    border: 2px solid #777;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #3eff37;
+        font-size: 18px;
+    }
+}
+
+.Carts{
+    max-width: 600px;
+    margin: auto;
+}
+
+.changeQuantity{
+    display: flex;
+    margin: 15px 0;
+    border: #333;
+    justify-content: space-between;
+    max-width: 80px;
+}
+
+/* .TotalPrice{
+    margin-top: 30px;
+} */

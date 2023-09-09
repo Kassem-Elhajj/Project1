@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;  /*So that the inputs have the same length as the button*/
+}
+
+.PostContainer{
+    margin: auto;
+    max-width: 500px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.imagePost{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.postGenderType select{
+    margin-top: 10px;
+    margin-bottom: 21px;
+    width: 500px;
+    height: 33px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 17px;
+}
+
+.GenderTitle{
+    text-align: center;
+    margin: 25px
+}
+
+.Sort select{
+    width: 170px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    &:hover{
+        border-color:#3eff37 ;
+    }
+}
+
+.CartLogo{
+    max-height: 25px;
+    color: white;
+}
+
+.PersonalInfoContainer{
+    border: solid;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 10px;
+    text-align: center;
+    border-color: #777;
+}
+
+.DeleteAccountButton{
+    margin-left: 20px;
+    border-style: dashed #777;
+    &&:hover{
+        background-color: #3eff37;
+    }
+}
